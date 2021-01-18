@@ -1,0 +1,345 @@
+body {
+    background-color: black;
+  }
+  #heading {
+    height: 10px;
+    background-color: black;
+    margin: 0px;
+    border-radius: 0;
+  }  
+  .dropdown-menu > li > a {
+    font-style: italic;
+    color: black;
+    font-size: 15px;s
+  }
+  #first-list a:hover,
+  #first-list a:active {
+    color: red;
+  }
+  .col-xs-4 {
+    width: 30%;
+  }
+  
+  .navbar {
+    min-height: 55px;
+  }
+  .navbar-default {
+    border: 0px;
+  }
+  .top-bar {
+    min-width: 110px;
+    min-height: 10px;
+    position: absolute;
+    background-color: black;
+  }
+  #dp h2 {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+  }
+  #dp a {
+    text-decoration: none;
+  }  
+  #first-list {
+    font-size: 16px;
+  }
+  #section {
+    position: relative;
+  }
+  #intro {
+    text-align: center;
+  }
+  #intro h3 {
+    margin-top: 10%;
+    font-weight: bold;
+    color: rgb(14, 213, 248);
+  }
+  #intro h1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px silver;
+  }
+  #intro h4 {
+    font-weight: bold;
+    color: white;
+  }
+  #but {
+    background-color: silver;
+    margin-top: 40px;
+    color: black;
+  }
+  #but a:hover {
+    font-size: 18px;
+  }
+  #but span {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #but1 {
+    margin-top: 100px;
+  }
+  .btn {
+    background-color: white;
+  }
+  .jumbotron {
+    background-color: black;
+  }
+  #abouttext {
+    margin-top: 35px;
+  }
+  #abouttext img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+  }
+  #starting h3,
+  #starting h5 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  #para {
+    font-size: 16px;
+    color: white;
+    line-height: 2;
+  }  
+  @media (min-width: 100px) and (max-width: 767px) {
+    .panel-footer section {
+      margin-top: 60px;
+    }
+    #intro h3 {
+      margin-top: 30%;
+    }
+    panel-footer h3 {
+      margin-bottom: 50px;
+    }
+  
+    #para {
+      padding: 50px;
+    }
+    #prj h4 {
+      margin-top: 50px;
+    }
+    .top-bar {
+      padding-left: 40px;
+    }
+  }
+  @media (min-width: 767px) {
+    #abouttext {
+      padding-bottom: 40px;
+    }
+  }  
+  #part2 h3,
+  #part4 h3,
+  #ins h3,
+  #contact h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  #interests h3 {
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 60px;
+  }
+  .panel-footer {
+    margin-top: 200px;
+  }
+  .panel-footer h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  #part2 h4,
+  #part3 h4,
+  #part4 h4 {
+    color: silver;
+    font-weight: bold;
+  }  
+  .counter-count {
+    display: block;
+  }
+  @media (min-width: 767px) {
+    .counter-count {
+      font-size: 69px;
+      color: red;
+      font-weight: 550;
+    }
+  }  
+  @media (min-width: 100px) and (max-width: 767px) {
+    .counter-count {
+      font-size: 39px;
+      color: red;
+      padding-left: 40px;
+    }
+  
+    #part2 h4,
+    #part2 .namep,
+    #part3 h4,
+    #part3 .namep,
+    #part4 h4,
+    #prj h4,
+    #pintro h5,
+    #pintro p {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  
+    #edu {
+      padding-left: 40px;
+    }
+  }
+  #part4 {
+    line-height: 2;
+  }
+  
+  .namep {
+    font-size: 13px;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+  #web h4 {
+    margin-top: 30px;
+  }
+  .counter-count,
+  .namep {
+    text-align: center;
+  }
+  #edu {
+    color: white;
+    font-size: 16px;
+  }
+  #prj {
+    color: white;
+    font-size: 16px;
+    line-height: 2;
+  }
+  #pintro p {
+    font-size: 14px;
+    color: white;
+  }
+  #pintro h5 {
+    color: silver;
+  }
+  #prg h4,
+  #web h4 {
+    padding-left: 30px;
+  }
+  #contact {
+    font-size: 18px;
+  }
+  #contact a {
+    text-decoration: none;
+    color: black;
+  }
+  section {
+    font-size: 16px;
+  }  
+  .carousel-inner {
+    width: 100%;
+    position: center;
+  }
+  #hours span {
+    font-size: 20px;
+  }
+  #hours,
+  #cont,
+  #Address {
+    text-align: center;
+    color: white;
+    line-height: 2;
+  }
+  #symbol {
+    font-size: 35px;
+    color: blue;
+  }
+  #cont a {
+    text-decoration: none;
+    color: white;
+  }
+  .content-box-info .btn-click:hover a{
+    letter-spacing: 2px;
+  }
+  .content-box-info:hover .btn-click a {
+  opacity: 1;
+  }
+  .content-box-info:hover .img-website {
+    filter: opacity(0.4);
+  }
+  .content-box-info .btn-click 
+  {
+  transition: all .4s;
+  }
+  .content-box-info .btn-click a:link,
+  .content-box-info .btn-click a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 1.4rem 1.7rem;
+    border-radius: 4px;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 34%;
+    opacity: 0;
+    transition: all .4s;  
+  }
+  .content-box .content-box-info {
+    width: 46%;
+    box-shadow: 0 7px 14px rgba(85, 85, 85, 0.4);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 0.8rem 1.2rem;
+    position: relative;
+    background-color: #615f5f;
+    transition: all .4s;  
+  }
+  .content-box-info .img-website {
+    width: 100%;
+    box-shadow: 0 8px 12px rgba(85, 85, 85, 0.2);
+    transition: all 0.4s;
+  }
+  .full-content .content-box
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+  }  
+  .full-content{
+    background-color:#030303;
+    background-size: cover;
+    background-position: center;
+  }
+  .full-content .head{
+    text-align: center;
+    color: black;
+    padding: 2rem 4rem;
+  }
+  .full-content .content-box
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+  }
+  .btn {
+    background-color: #0c0b0c;
+    color: black;
+  }
+  
+  
